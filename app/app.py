@@ -218,7 +218,7 @@ register_to_target_group(cluster2_target_group, cluster2_instances)
 
 print('Initilization Finished.\n Starting Test.')
 
-
+#####################################TESTING PART AND METRICS#########################################
 
 commands = ['sudo apt-get update',
                 'git clone "https://github.com/marsup13/lab1LOG8415.git"',
@@ -411,7 +411,7 @@ plt.show()
 
 ###############################################TERMINATE INSTANCES#################################################
 
-#for instance in cluster1_instances['Instances']:
-#    terminate_instance(instance)
-#for instance in cluster2_instances['Instances']:
-#    terminate_instance(instance)
+for instance in cluster1_instances['Instances']:
+    terminate_instance(instance)
+for instance in cluster2_instances['Instances']:
+    terminate_instance(instance)
