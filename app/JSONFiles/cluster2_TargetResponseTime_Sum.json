@@ -1,0 +1,35 @@
+{
+    "Label": "TargetResponseTime",
+    "Datapoints": [
+        {
+            "Timestamp": "2021-10-06T02:14:00Z",
+            "Sum": 4.423476,
+            "Unit": "Seconds"
+        },
+        {
+            "Timestamp": "2021-10-06T02:18:00Z",
+            "Sum": 0.591071,
+            "Unit": "Seconds"
+        },
+        {
+            "Timestamp": "2021-10-06T02:19:00Z",
+            "Sum": 4.240299,
+            "Unit": "Seconds"
+        },
+        {
+            "Timestamp": "2021-10-06T02:12:00Z",
+            "Sum": 0.933905,
+            "Unit": "Seconds"
+        },
+        {
+            "Timestamp": "2021-10-06T02:13:00Z",
+            "Sum": 0.743671,
+            "Unit": "Seconds"
+        },
+        {
+            "Timestamp": "2021-10-06T02:17:00Z",
+            "Sum": 1.8215919999999999,
+            "Unit": "Seconds"
+        }
+    ]
+}

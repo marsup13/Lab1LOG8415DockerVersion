@@ -1,0 +1,45 @@
+{
+    "Label": "NewConnectionCount",
+    "Datapoints": [
+        {
+            "Timestamp": "2021-10-06T02:14:00Z",
+            "Sum": 1862.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:18:00Z",
+            "Sum": 232.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:13:00Z",
+            "Sum": 1908.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:15:00Z",
+            "Sum": 838.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:19:00Z",
+            "Sum": 1656.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:16:00Z",
+            "Sum": 912.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:17:00Z",
+            "Sum": 1856.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:12:00Z",
+            "Sum": 726.0,
+            "Unit": "Count"
+        }
+    ]
+}
