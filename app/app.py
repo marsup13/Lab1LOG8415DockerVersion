@@ -220,20 +220,11 @@ print('Initilization Finished.\n Starting Test.')
 
 #####################################TESTING PART AND METRICS#########################################
 
-commands = ['sudo apt-get update',
-                'git clone "https://github.com/marsup13/lab1LOG8415.git"',
-                'cd lab1LOG8415/scripts && sudo chmod +x metrics.sh && sudo ./metrics.sh']
-    try:
-        for command in commands[:-1]:
-            print(command)
-            stdin, stdout, stderr = ssh.exec_command(command)
-            stdout.read()
-            stderr.read()
-
-        stdin, stdout, stderr = ssh.exec_command(commands[-1])
-        print('--> Commands executed successfully')
-    except Exception as e:
-        print(e)
+commands = ['git clone "https://github.com/marsup13/lab1LOG8415.git"',
+            'cd lab1LOG8415/scripts && sudo chmod +x metrics.sh && sudo ./metrics.sh']
+for cmd in commands:
+	os.system(cmd)
+	
 
 
 #####################################################PLOT THE GRAPHS AND GIVE TABLES FOR METRICS############################################
