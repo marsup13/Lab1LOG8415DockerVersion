@@ -1,0 +1,45 @@
+{
+    "Label": "RequestCount",
+    "Datapoints": [
+        {
+            "Timestamp": "2021-10-06T02:14:00Z",
+            "Sum": 931.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:18:00Z",
+            "Sum": 116.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:13:00Z",
+            "Sum": 954.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:15:00Z",
+            "Sum": 419.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:19:00Z",
+            "Sum": 828.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:16:00Z",
+            "Sum": 456.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:17:00Z",
+            "Sum": 928.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2021-10-06T02:12:00Z",
+            "Sum": 363.0,
+            "Unit": "Count"
+        }
+    ]
+}
