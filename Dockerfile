@@ -1,13 +1,16 @@
-FROM python:3
-#ADD app.py /
+FROM python:3.6
 
-COPY ./requirements.txt /requirements.txt
-WORKDIR /
-RUN pip3 install -r requirements.txt
-COPY . /
-ENTRYPOINT [ "python3" ]
+ADD final.py requirements.txt ec2-keypair.pem /
 
-CMD [ "app/app.py" ]
+RUN python3 -m pip install --upgrade pip
+RUN pip install -r requirements.txt
 
+ENV AWS_ACCESS_KEY_ID=
+ENV AWS_SECRET_ACCESS_KEY=
+ENV AWS_SESSION_TOKEN=
+ENV AWS_REGION=us-east-1
+ENV AWS_DEFAULT_REGION=us-east-1
+RUN aws ecr get-login --region ${AWS_REGION}
 
-
+ENV PYTHONUNBUFFERED=1
+CMD [ "python", "./final.py" ]
